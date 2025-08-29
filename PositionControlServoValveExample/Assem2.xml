@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/15/24||03:56:32" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem2" uid="Assem2" version="543">
+<AssemblyFile name="Assem2.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Fix_shoulder_AllCATPart-1" uid="Fix_shoulder_AllCATPart-1" grounded="true" entityUid="Fix_shoulder_AllCATPart*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.34096126541142679 0.11539023277064286 0.030537277543807848</Translation>
+</Transform>
+</Instance>
+<Instance name="Groupe_Croission_AllCATPart-1" uid="Groupe_Croission_AllCATPart-1" entityUid="Groupe_Croission_AllCATPart*:*Default">
+<Transform>
+<Rotation>0.96452872859227656 -0.26397717606183901 0.00061825446511279208 0.26022304590995476 0.9512001658380197 0.16583790545912386 -0.044365505716855123 -0.15979454004483579 0.98615283139802778</Rotation>
+<Translation>0.075340636300673836 0.31128102017595699 -0.36576257732586803</Translation>
+</Transform>
+</Instance>
+<Instance name="EPAULE-CYLINDRE-GROUPE2_AllCATPart-1" uid="EPAULE-CYLINDRE-GROUPE2_AllCATPart-1" entityUid="EPAULE-CYLINDRE-GROUPE2_AllCATPart*:*Default">
+<Transform>
+<Rotation>0.8548969778207951 -2.3217941363026313e-13 -0.51879780002701548 -0.5114563236498344 0.16763540878048358 -0.84279938225036444 0.086968881282139976 0.98584906031450892 0.1433110043420702</Rotation>
+<Translation>0.025490528533954653 0.06567592684922588 0.13667798464347786</Translation>
+</Transform>
+</Instance>
+<Instance name="VERIN_EPAULE_TIGE_GROUPE2.3_AllCATPart-2" uid="VERIN_EPAULE_TIGE_GROUPE2.3_AllCATPart-2" entityUid="VERIN_EPAULE_TIGE_GROUPE2.3_AllCATPart*:*Default">
+<Transform>
+<Rotation>-0.85489697782079499 0.51879780002701537 2.3159390106785892e-13 0.5114563236498344 0.84279938225036455 -0.16763540878048333 -0.086968881282139351 -0.14331100434207034 -0.98584906031450881</Rotation>
+<Translation>0.10770740349971721 0.015217360603085607 0.13756755621847955</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Fix_shoulder_AllCATPart-1</Uid>
+</InstancePath>
+<Position>0.36182108592000001 0.0027299160316399951 0.106167924589</Position>
+<Axis>2.3173781138200545e-13 -0.1676354087804835 -0.98584906031450903</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Groupe_Croission_AllCATPart-1</Uid>
+</InstancePath>
+<Position>-0.125103341674 -0.24967992486699991 0.445042980157</Position>
+<Axis>0.00011509544634572683 -0.0019215314857688459 -0.99999814723317737</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fix_shoulder_AllCATPart-1</Uid>
+</InstancePath>
+<Position>0.34982108592 0.0027466795725200055 0.10626650949500001</Position>
+<Axis>1.4321548405691824e-15 0.16763540878090452 0.98584906031443731</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Groupe_Croission_AllCATPart-1</Uid>
+</InstancePath>
+<Position>-0.12459725172200001 -0.25812915381499996 0.46355930817200008</Position>
+<Axis>0.000115095446345026 -0.0019215314857703447 -0.99999814723317737</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EPAULE-CYLINDRE-GROUPE2_AllCATPart-1</Uid>
+</InstancePath>
+<Position>0.019003089499799997 -0.0088316590779000115 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Groupe_Croission_AllCATPart-1</Uid>
+</InstancePath>
+<Position>-0.12121707451699999 -0.31456159430599995 0.44616810170400012</Position>
+<Axis>0.00011509544634572683 -0.0019215314857909949 -0.99999814723317748</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Fix_shoulder_AllCATPart-1</Uid>
+</InstancePath>
+<Position>0.49383408592 -0.123019711773 0.13617260933399999</Position>
+<Axis>2.3266111259800942e-13 -0.16763540878048397 -0.98584906031450881</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>VERIN_EPAULE_TIGE_GROUPE2.3_AllCATPart-2</Uid>
+</InstancePath>
+<Position>-0.052831414989900016 0 -0.0075000000000000067</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fix_shoulder_AllCATPart-1</Uid>
+</InstancePath>
+<Position>0.48383408592000005 -0.110478290347 0.12044770079499999</Position>
+<Axis>-1.9674960903688755e-16 -0.16763540878090452 -0.98584906031443731</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>VERIN_EPAULE_TIGE_GROUPE2.3_AllCATPart-2</Uid>
+</InstancePath>
+<Position>-0.052831414989899989 -0.0079999999999999932 -0.011499999999999982</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="LimitDistance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>VERIN_EPAULE_TIGE_GROUPE2.3_AllCATPart-2</Uid>
+</InstancePath>
+<Position>0.057168585010099984 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EPAULE-CYLINDRE-GROUPE2_AllCATPart-1</Uid>
+</InstancePath>
+<Position>0.03700308949980001 0.007418340922129979 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EPAULE-CYLINDRE-GROUPE2_AllCATPart-1</Uid>
+</InstancePath>
+<Position>0.11600308950000003 -0.0075816590778700066 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>VERIN_EPAULE_TIGE_GROUPE2.3_AllCATPart-2</Uid>
+</InstancePath>
+<Position>0.0071685850101000093 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="EPAULE-CYLINDRE-GROUPE2_AllCATPart" uid="EPAULE-CYLINDRE-GROUPE2_AllCATPart*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="EPAULE-CYLINDRE-GROUPE2_AllCATPart.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.07034536705258955</Mass>
+<CenterOfMass>0.076661538206025309 -0.0076343608881555359 -2.887882863551251e-08</CenterOfMass>
+<Inertia>1.9710133623269299e-05 8.3542575041437096e-05 8.3817508101135968e-05 -3.8080873014752268e-11 -1.3042818768270763e-10 -2.1398005793054405e-07</Inertia>
+</MassProperties>
+<GeometryFile name="EPAULE-CYLINDRE-GROUPE2_AllCATPart_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Fix_shoulder_AllCATPart" uid="Fix_shoulder_AllCATPart*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Fix_shoulder_AllCATPart.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.0580612539133565</Mass>
+<CenterOfMass>0.50044343926294266 -0.001165847194309972 0.075827668750788446</CenterOfMass>
+<Inertia>0.0053870503030040984 0.0041486381928570694 0.0035900315614857308 4.890478614814811e-05 0.00079564645302915228 -8.3820038059490232e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Fix_shoulder_AllCATPart_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Groupe_Croission_AllCATPart" uid="Groupe_Croission_AllCATPart*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Groupe_Croission_AllCATPart.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01804130767255175</Mass>
+<CenterOfMass>-0.12439521467836562 -0.26150333449237839 0.4469605435193319</CenterOfMass>
+<Inertia>1.3826660730118843e-05 1.7261077310373102e-06 1.2795934871468032e-05 -1.6959299777727927e-07 1.0156564786442619e-08 7.2732569218988438e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Groupe_Croission_AllCATPart_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="VERIN_EPAULE_TIGE_GROUPE2.3_AllCATPart" uid="VERIN_EPAULE_TIGE_GROUPE2.3_AllCATPart*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="VERIN_EPAULE_TIGE_GROUPE2.3_AllCATPart.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.021114190716927193</Mass>
+<CenterOfMass>-0.027685216847331141 -0.0031861043179919201 -9.0595196478335997e-05</CenterOfMass>
+<Inertia>1.781239880660762e-06 2.5598736827309908e-05 2.632362451468848e-05 -1.2695465594134399e-08 -4.9277202553285696e-08 -1.7017868441839352e-06</Inertia>
+</MassProperties>
+<GeometryFile name="VERIN_EPAULE_TIGE_GROUPE2.3_AllCATPart_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
